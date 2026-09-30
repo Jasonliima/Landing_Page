@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto MVP | Início</title>
+  <meta name="description" content="Página inicial do Projeto MVP com foco em transparência, sustentabilidade e inclusão." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Página inicial do Projeto MVP">
+        <i class="fa-solid fa-building-columns"></i>
+        <span>Projeto MVP</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Menu principal">
+        <a href="index.html" class="active">Início</a>
+        <a href="politicas.html">Políticas</a>
+        <a href="liderancas.html">Lideranças</a>
+      </nav>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="container">
+        <a href="index.html">Início</a>
+        <a href="politicas.html">Políticas</a>
+        <a href="liderancas.html">Lideranças</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>
+          <span class="highlight">Melhorando o Bem esta do Proximo</span>
+        </h1>
+        <p>
+          Uma iniciativa para promover o bem-estar, eficácia e participação entre familiares e cuidadores. Melhorando a vida do idoso.
+        </p>
+        <div class="button-row">
+          <a href="politicas.html" class="btn btn-primary">Conhecer as Políticas</a>
+          <a href="liderancas.html" class="btn btn-secondary">Nossos Líderes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Nossa visão</p>
+          <h2>Cuidado digno para cada pessoa idosa</h2>
+          <div class="section-line"></div>
+          <p>
+            Nossa visão é promover o bem-estar e a qualidade de vida da pessoa idosa,
+            respeitando sua história, autonomia e necessidades, com apoio próximo de familiares e cuidadores.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card blue">
+            <div class="card-bg"><i class="fa-solid fa-scale-balanced"></i></div>
+            <div class="card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h3>Transparência</h3>
+            <p>
+              Acesso a dados públicos, processos abertos e tomada de decisão mais clara.
+            </p>
+          </article>
+
+          <article class="card green">
+            <div class="card-bg"><i class="fa-solid fa-seedling"></i></div>
+            <div class="card-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h3>Sustentabilidade</h3>
+            <p>
+              Iniciativas que conectam desenvolvimento econômico com cuidado ambiental.
+            </p>
+          </article>
+
+          <article class="card orange">
+            <div class="card-bg"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Inclusão</h3>
+            <p>
+              Educação, oportunidade e atenção às comunidades em situação de vulnerabilidade.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: #fff;">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Como atuamos</p>
+          <h2>Organização por pilares</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="feature-list">
+          <article class="feature">
+            <div class="step">01</div>
+            <div>
+              <h3>Diagnóstico social</h3>
+              <p>
+                Entendemos as necessidades reais da população por meio de escuta ativa,
+                pesquisa e diálogo com lideranças locais.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="step">02</div>
+            <div>
+              <h3>Estratégia pública</h3>
+              <p>
+                Transformamos desafios em políticas práticas, priorizando ações de impacto,
+                eficiência e acompanhamento contínuo.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="step">03</div>
+            <div>
+              <h3>Execução e acompanhamento</h3>
+              <p>
+                Medimos resultados, ajustamos ações e mantemos comunicação transparente com a comunidade.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

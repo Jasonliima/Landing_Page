@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto MVP | Lideranças</title>
+  <meta name="description" content="Conheça as lideranças do Projeto MVP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Página inicial do Projeto MVP">
+        <i class="fa-solid fa-building-columns"></i>
+        <span>Projeto MVP</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="politicas.html">Políticas</a>
+        <a href="liderancas.html" class="active">Lideranças</a>
+      </nav>
+
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="container">
+        <a href="index.html">Início</a>
+        <a href="politicas.html">Políticas</a>
+        <a href="liderancas.html">Lideranças</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <p class="eyebrow">Quem faz acontecer</p>
+        <h1>Nossas Lideranças</h1>
+        <p>
+          Conheça as pessoas que fazem parte do Projeto MVP e do compromisso com o cuidado à pessoa idosa.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container team-grid">
+        <article class="profile">
+          <i class="fa-solid fa-user-check profile-icon blue" aria-hidden="true"></i>
+          <h3>Jason Lima</h3>
+          <span class="role blue">Matrícula: 16037741</span>
+          <span class="participant">Participante do Projeto MVP</span>
+          <p class="motto">"Pequenas atitudes de cuidado podem transformar um dia inteiro."</p>
+        </article>
+
+        <article class="profile">
+          <i class="fa-solid fa-user-check profile-icon green" aria-hidden="true"></i>
+          <h3>Renato Teles</h3>
+          <span class="role green">Matrícula: 4863629</span>
+          <span class="participant">Participante do Projeto MVP</span>
+          <p class="motto">"Respeito e atenção fazem cada pessoa se sentir acolhida."</p>
+        </article>
+
+        <article class="profile">
+          <i class="fa-solid fa-user-check profile-icon orange" aria-hidden="true"></i>
+          <h3>João Vitor</h3>
+          <span class="role orange">Matrícula: 16037677</span>
+          <span class="participant">Participante do Projeto MVP</span>
+          <p class="motto">"Com empatia e dedicação, construímos um cuidado melhor."</p>
+        </article>
+
+        <article class="profile">
+          <i class="fa-solid fa-user-check profile-icon blue" aria-hidden="true"></i>
+          <h3>Carlos Henrique</h3>
+          <span class="role blue">Matrícula: 16037733</span>
+          <span class="participant">Participante do Projeto MVP</span>
+          <p class="motto">"Cuidar juntos é promover mais dignidade e qualidade de vida."</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
